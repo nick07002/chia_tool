@@ -48,7 +48,7 @@ Before you can use this tool, make sure you have the following prerequisites ins
    
 5. 使用以下命令在终端中运行工具：
    ```bash
-   python3 mojo.py 
+   python3 mojo.py --finger 1999988888
 
 
 

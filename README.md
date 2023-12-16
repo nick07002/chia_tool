@@ -70,7 +70,7 @@ python3 mojo.py --finger <你的钱包指纹>
 ## 如何找到钱包指纹
 
 打开chia客户端图形界面，（如果第一次打开，需要创建钱包）左上角10位数字就是你的钱包指纹
-
+![chia UI](https://github.com/nick07002/chia_tool/blob/f1f7422cf3a6ec12091764f0c1893f78da97c166/chiafinger.png)
 
 
 

@@ -48,6 +48,7 @@ Before you can use this tool, make sure you have the following prerequisites ins
 4. 读取钱包指纹
 
    ‘’‘
+
       $ chia wallet show
 
          Active Wallet Key (*):

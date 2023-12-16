@@ -46,7 +46,9 @@ Before you can use this tool, make sure you have the following prerequisites ins
 3. 在**第21行**上用您自己的Chia地址替换Chia地址。
 
 4. 读取钱包指纹
-   ‘’‘$ chia wallet show
+
+   ‘’‘
+      $ chia wallet show
 
          Active Wallet Key (*):
             -Fingerprint:           1999988888

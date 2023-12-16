@@ -35,8 +35,10 @@ Before you can use this tool, make sure you have the following prerequisites ins
 ## 先决条件
 
 在使用此工具之前，请确保您的系统上已安装以下先决条件：
+此工具只在Linux测试过，mac应该可以直接用。windows并没有测试。
 
 - **Python**：确保您的计算机上已安装Python。您可以从[python.org](https://www.python.org/downloads/)下载它。
+- **Chia** 本地需要先安装chia: https://www.chia.net/downloads/
 
 - **Pip**：Pip是Python的包管理器。它应该随Python一起安装。您可以在终端中运行`pip --version`来检查是否安装了Pip。
 

@@ -1,69 +1,41 @@
-# Chia Inscription Minting Tool
+# Chia铭文 FAQ:
 
-**Disclaimer: This tool is for minting Chia inscriptions and should be used at your own risk. Please exercise caution when using it.**
+## 支持什么操作系统？
 
-## Prerequisites
+代码可以支持Linux (Ubuntu, Centos, Redhat, Deepin等）MacOS 都经过了测试。
+Windows有版友也跑起来了。
 
-Before you can use this tool, make sure you have the following prerequisites installed on your system:
+## 我怎么安装python  或者python3?
+英文教程 ： https://www.python.org/download/releases/2.5/msi/
+中文教程： https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624
+确定你的python安装好再进行下一步
 
-- **Python**: Ensure that Python is installed on your machine. You can download it from [python.org](https://www.python.org/downloads/).
-
-- **Pip**: Pip is the package manager for Python. It should be included with your Python installation. You can check if Pip is installed by running `pip --version` in your terminal.
-
-## Usage
-
-1. Clone this repository to your local machine.
-
-2. Open the `run.py` file in the project directory.
-
-3. Replace the Chia address on **line 21** with your own Chia address.
-
-4. Run the tool using the following command in your terminal:
-
-   ```bash
-   python3 run.py --tick <coin_name> --iter <number_of_iterations> --fee <transaction_fee>
-
-   for example:
-
-   python3 run.py --tick bram --iter 2 --fee 0.0001
+## 如何安装 Chia 客户端。
+https://www.chia.net/downloads/ 
 
 
-# Chia Inscription Minting Tool
+## 如何验证chia客户端安装完成。
 
-**免责声明：此工具用于铸造Chia铭文，使用时需自担风险。在使用时请谨慎操作。**
-
-## 先决条件
-
-在使用此工具之前，请确保您的系统上已安装以下先决条件：
-此工具只在Linux测试过，mac应该可以直接用。windows并没有测试。
-
-- **Python**：确保您的计算机上已安装Python。您可以从[python.org](https://www.python.org/downloads/)下载它。
-- **Chia** 本地需要先安装chia: https://www.chia.net/downloads/
-
-- **Pip**：Pip是Python的包管理器。它应该随Python一起安装。您可以在终端中运行`pip --version`来检查是否安装了Pip。
-
-## 使用方法
-
-1. 将此存储库克隆到您的本地计算机。
-
-2. 在项目目录中打开`run.py`文件。
-
-3. 在**第21行**上用您自己的Chia地址替换Chia地址。
-
-4. 在**第27行** 如果带币默认一张不是1000个，需要更改这个数字，比如chia要改成 10000。
+### A) Linux 系统，打开命令行，输入 `chia` 你应该看到如下信息
+   Usage: chia [OPTIONS] Command [ARGS]
    
-5. 使用以下命令在终端中运行工具：
-   注意：！！！ 你最好先测试 循环1次或2次，然后检查你的钱包无误在加大循环次数！！！
-   另：python3 或者 python都可以运行
-   ```bash
-   python3 run.py --tick <coin_name> --iter <number_of_iterations> --fee <transaction_fee>
+               如果没有看到以上信息做如下操作：
+               i) 用你熟悉的编辑器打开 ~/.bashrc  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，可以用gedit等工具打开。 (gedit 安装教程：https://help.ubuntu.com/community/gedit）
+              ii）再~/.bashrc文件加入一行 export PATH=$PATH:/usr/bin
+              iii) 在命令行输入 source ~/.bashrc
+              iv) 再重新测试chia命令就应该可以了。
 
-   例如：
-
-   python3 run.py --tick bram --iter 2 --fee 0.0001
-
-
-## 备注
-1. 查询气费网站 https://dashboard.chia.net/d/46EAA05E/mempool-transactions-and-fees?orgId=1 右下角
-2. 查询铭文列表： https://unimojo.io/#/xchs
+### B) Mac 系统，打开命令行，输入 `chia` 你应该看到如下信息
+   Usage: chia [OPTIONS] Command [ARGS]
    
+               如果没有看到以上信息做如下操作：
+               i) 用你熟悉的编辑器打开 ~/.bashrc  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，可以用atom 编辑器等工具打开。 (atom 安装教程 https://formulae.brew.sh/cask/atom) 
+              ii）再~/.bashrc文件加入一行 
+export PATH=/Applications/Chia.app/Contents/Resources/app.asar.unpacked/daemon
+              iii) 在命令行输入 source ~/.bashrc
+              iv) 再重新测试chia命令就应该可以了。
+
+
+
+                 	
+

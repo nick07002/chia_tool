@@ -26,7 +26,8 @@ https://www.chia.net/downloads/
    
    如果没有看到以上信息做如下操作：
    
-      i) 用你熟悉的编辑器打开 `~/.bashrc`  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，可以用gedit等工具打开。 (gedit 安装教程：https://help.ubuntu.com/community/gedit）
+      i) 用你熟悉的编辑器打开 `~/.bashrc`  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，
+        可以用gedit等工具打开。 (gedit 安装教程：https://help.ubuntu.com/community/gedit）
       
       ii）在 `~/.bashrc文件加入一行 export PATH=$PATH:/usr/bin`
       
@@ -40,7 +41,8 @@ https://www.chia.net/downloads/
    
       如果没有看到以上信息做如下操作：
       
-      i) 用你熟悉的编辑器打开 ~/.bashrc  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，可以用atom 编辑器等工具打开。 (atom 安装教程 https://formulae.brew.sh/cask/atom) 
+      i) 用你熟悉的编辑器打开 ~/.bashrc  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，
+       可以用atom 编辑器等工具打开。 (atom 安装教程 https://formulae.brew.sh/cask/atom) 
       
       ii）在 `~/.bashrc`文件加入一行 
       

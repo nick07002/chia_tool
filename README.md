@@ -26,3 +26,33 @@ Before you can use this tool, make sure you have the following prerequisites ins
    for example:
 
    python3 run.py --tick bram --iter 2 --fee 0.0001
+
+
+# Chia Inscription Minting Tool
+
+**免责声明：此工具用于铸造Chia铭文，使用时需自担风险。在使用时请谨慎操作。**
+
+## 先决条件
+
+在使用此工具之前，请确保您的系统上已安装以下先决条件：
+
+- **Python**：确保您的计算机上已安装Python。您可以从[python.org](https://www.python.org/downloads/)下载它。
+
+- **Pip**：Pip是Python的包管理器。它应该随Python一起安装。您可以在终端中运行`pip --version`来检查是否安装了Pip。
+
+## 使用方法
+
+1. 将此存储库克隆到您的本地计算机。
+
+2. 在项目目录中打开`run.py`文件。
+
+3. 在**第21行**上用您自己的Chia地址替换Chia地址。
+
+4. 使用以下命令在终端中运行工具：
+
+   ```bash
+   python3 run.py --tick <coin_name> --iter <number_of_iterations> --fee <transaction_fee>
+
+   例如：
+
+   python3 run.py --tick bram --iter 2 --fee 0.0001

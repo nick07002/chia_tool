@@ -47,9 +47,9 @@ Before you can use this tool, make sure you have the following prerequisites ins
 
 4. 读取钱包指纹
 
-   ‘’‘bash
+   ```bash
+   
       $ chia wallet show
-
          Active Wallet Key (*):
             -Fingerprint:           1999988888
             -Label:                 LFG Bram

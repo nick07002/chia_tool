@@ -33,7 +33,9 @@ https://www.chia.net/downloads/
    ```shell
    export PATH=$PATH:/usr/bin
 3. 在命令行中输入以下命令以使更改生效：
-   ·source ~/.bashrc·
+   ```shell
+   source ~/.bashrc
+   
    然后重新测试 chia 命令，现在应该可以正常运行了。
       
 

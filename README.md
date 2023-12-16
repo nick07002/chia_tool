@@ -50,7 +50,9 @@ Before you can use this tool, make sure you have the following prerequisites ins
 
 3. 在**第21行**上用您自己的Chia地址替换Chia地址。
 
-4. 使用以下命令在终端中运行工具：
+4. 在**第27行** 如果带币默认一张不是1000个，需要更改这个数字，比如chia要改成 10000。
+   
+5. 使用以下命令在终端中运行工具：
    注意：！！！ 你最好先测试 循环1次或2次，然后检查你的钱包无误在加大循环次数！！！
    另：python3 或者 python都可以运行
    ```bash

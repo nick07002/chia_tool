@@ -6,8 +6,9 @@ import time
 # Define command-line arguments
 parser = argparse.ArgumentParser(description="Run Chia wallet send command multiple times.")
 parser.add_argument("--tick", type=str, help="Value to replace 'tick' in the command.",default='gene')
+parser.add_argument("--finger", required=True, type=int, help="wallet fingerprint to run the command.")
 parser.add_argument("--iter", type=int, help="Number of times to run the command.", default=1000000)
-parser.add_argument("--fee", type=float,help="Fee value to use in the command.", default=0.0000001)
+parser.add_argument("--fee", type=float,help="Fee value to use in the command.", default=0.00001)
 
 # Parse the command-line arguments
 args = parser.parse_args()
@@ -17,6 +18,8 @@ chia_send_command_template = [
     "chia",
     "wallet",
     "send",
+    "-f",
+    "{}".format(args.finger), #replace wallet fingerprint
     "-t",
     "xch1jdwmg5aa0qf3yr5jekhxdpmjp5p8lf7nhdl3lvfu4xr27ayx2m2q0sm3l9", #replace wallet
     "-a",

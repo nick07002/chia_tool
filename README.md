@@ -24,7 +24,7 @@ https://www.chia.net/downloads/
 ### A) Linux 系统，打开命令行，输入 `chia` 你应该看到如下信息
    `Usage: chia [OPTIONS] Command [ARGS]`
    
-   如果没有看到以上信息做如下操作：
+如果没有看到以上信息做如下操作：
    
       i) 用你熟悉的编辑器打开 `~/.bashrc`  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，
         可以用gedit等工具打开。 (gedit 安装教程：https://help.ubuntu.com/community/gedit）
@@ -39,7 +39,7 @@ https://www.chia.net/downloads/
 ### B) Mac 系统，打开命令行，输入 `chia` 你应该看到如下信息
    `Usage: chia [OPTIONS] Command [ARGS]`
    
-      如果没有看到以上信息做如下操作：
+如果没有看到以上信息做如下操作：
       
       i) 用你熟悉的编辑器打开 ~/.bashrc  如果你熟悉Linux 可以用 vi , emacs等工具，如果不熟悉，
        可以用atom 编辑器等工具打开。 (atom 安装教程 https://formulae.brew.sh/cask/atom) 

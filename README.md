@@ -57,3 +57,9 @@ Before you can use this tool, make sure you have the following prerequisites ins
    例如：
 
    python3 run.py --tick bram --iter 2 --fee 0.0001
+
+
+## 备注
+1. 查询气费网站 https://dashboard.chia.net/d/46EAA05E/mempool-transactions-and-fees?orgId=1 右下角
+2. 查询铭文列表： https://unimojo.io/#/xchs
+   

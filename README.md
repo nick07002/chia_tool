@@ -45,10 +45,22 @@ Before you can use this tool, make sure you have the following prerequisites ins
 
 3. 在**第21行**上用您自己的Chia地址替换Chia地址。
 
+4. 读取钱包指纹
+   ‘’‘$ chia wallet show
+
+         Active Wallet Key (*):
+            -Fingerprint:           1999988888
+            -Label:                 LFG Bram
+            -Sync Status:           Synced
+
+         Wallet Keys:
+         1)    4149998888   LFG Chia
+         2)  * 1999988888   LFG Bram
+         Choose a wallet key [1-2] ('q' to quit, or Enter to use 1999988888):
    
 5. 使用以下命令在终端中运行工具：
    ```bash
-   python3 mojo.py --finger 1999988888
+   python3 mojo.py  --finger 1999988888
 
 
 

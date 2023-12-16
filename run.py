@@ -22,7 +22,7 @@ chia_send_command_template = [
     "-a",
     "0.000000000001",
     "-m",
-    "0.0001",
+    "0.00000000001",
     "-e",
     "{{'p':'xchs','op':'mint','tick':'{}','amt':'1000'}}".format(args.tick),
     "--override",

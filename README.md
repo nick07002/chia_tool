@@ -78,7 +78,8 @@ python3 mojo.py --finger <你的钱包指纹>
 ## 如何打散UTXO
 
 我把命令行回复中英文部分翻译成中文利于理解。
-首先，列出可用的币种：
+
+首先，列出可用的币：
 
 ``` shell
 chia wallet coins list -f 590161281

@@ -97,7 +97,7 @@ chia wallet coins list -f 590161281
 将现有的币分成5个0.15 XCH的币，并包含1000 mojo的区块链费用：
 ``` shell
 chia wallet coins split -f 590161281 --number-of-coins 5 --amount-per-coin 0.15 --target-coin-id 0x5dc5106862c7e00b0611b79137dbd7520e4c90da1bbbadb01a4518e3e4ec1797 --fee 0.000000001
-``` shell
+``` 
 结果：
 
 
